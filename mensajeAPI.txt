@@ -1,0 +1,67 @@
+(Connecting)
+(connected - sending /login)
+O /login
+O <<EOS>>
+I !done
+I =ret=4fbdf0ed87c5d39c635f734f83b4162c
+I <<EOS>>
+(got key sending credentials)
+93b885adfe0da089cdf634904fd59f71
+2c3cd2a44be10b9689cd3faa7617a345
+O /login
+O =name=admin
+O =response=006464ed7bd335b5ce531b0c29bcf9c672
+O <<EOS>>
+I !done
+I =ret=4fbdf0ed87c5d39c635f734f83b4162c
+I <<EOS>>
+I !done
+O /interface/wireless/registration-table/print
+O <<EOS>>
+I !done
+I =ret=10d70e14c3ab58dffddfbe534af5cfa0
+I <<EOS>>
+I !done
+I <<EOS>>
+I !re
+I =.id=*2
+I =interface=wlan1
+I =mac-address=B8:64:91:68:1C:50
+I =ap=false
+I =wds=false
+I =bridge=false
+I =rx-rate=65Mbps-20MHz/1S
+I =tx-rate=11Mbps
+I =packets=122,172
+I =bytes=13265,14518
+I =frames=122,172
+I =frame-bytes=12533,13486
+I =hw-frames=123,206
+I =hw-frame-bytes=15584,18430
+I =tx-frames-timed-out=0
+I =uptime=46s
+I =last-activity=190ms
+I =signal-strength=-38@HT20-7
+I =signal-to-noise=49
+I =signal-strength-ch0=-38
+I =evm-ch0=29
+I =strength-at-rates=-33@1Mbps
+I 2s910ms,-38@6Mbps
+I 2s520ms,-36@HT20-1
+I 20s160ms,-38@HT20-6
+I 7s330ms,-38@HT20-7
+I 190ms
+I =tx-ccq=105
+I =p-throughput=6199
+I =distance=1
+I =last-ip=192.168.100.253
+I =802.1x-port-enabled=true
+I =management-protection=false
+I =wmm-enabled=true
+I =tx-rate-set=CCK:1-11
+I OFDM:6-54
+I BW:1x
+I HT:0-7
+I <<EOS>>
+I !done
+I <<EOS>>
